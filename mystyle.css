@@ -1,0 +1,144 @@
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size:16px;
+    color: #3A3A3A;
+}
+/*設定全部body中字的顏色為#3A3A3A，大小為16，字體是'Noto Sans TC'*/
+.title{
+    color:#ffffff;
+    background-color:#D15352;
+    width: fit-content;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+#ABOUT{
+	color:#fff;
+}
+
+nav{
+    height: 30px;
+    padding:20px 50px;
+	background-color: #ffffff;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+nav a{
+    text-decoration: none;
+    margin-right: 16px; 
+		color: #3A3A3A;
+}
+/*設定字的顏色為灰色，大小為16*/
+a:hover{
+	color:#D15352;
+}
+/*觸發後字的顏色會轉為紅色*/
+.vr{
+    height: 16px;
+    border-left: #3A3A3A solid 2px;
+    margin-right: 16px;
+}
+
+.content{
+    width: 70vw;
+    margin: 0px auto;
+}
+
+.title{
+    color:#ffffff;
+    background-color:#D15352;
+    width: fit-content;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.about-me p{
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    margin-bottom: 10x;
+    padding:50px 20px;
+}
+.about-me .icons{
+    padding: 5px 10px;
+    font-size: 24px;   
+}
+.about-me .icons a{
+    
+    margin-left: 10px;
+}
+.about-me .icons a:hover{
+    color:#D15352;
+}
+
+img{
+    width: 205px;
+    height: 220px;
+    position: relative;
+    margin-left: 20px;
+}
+.img img{
+    border-radius: 200px;
+    position: absolute;
+    z-index: 1;
+}
+.circle01{
+    width: 200px;
+    height: 200px;
+    background-color: #44858C;
+    border-radius: 200px;
+    position: absolute;
+    top: 200px;
+    right:120px;
+}
+.circle02{
+    width: 100px;
+    height: 100px;
+    background-color: #E0BD5E;
+    border-radius: 100px;
+    position: absolute;
+    top: 360px;
+    right: 300px;
+}
+.about-me{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle{
+    color:#ffffff;
+    background-color:steelblue;
+    width: fit-content;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+/* 設定subtilte 字的顏色為白色，背影為藍，邊框有圓角，margin-bottom：是與下方元素的距離為30px，寬度隨著contnet改變，
+padding 設定上下內距為10px 左右內距為50px*/
+.timeline{
+    position: relative;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: column;
+    align-items:center;
+}
+
+.web-box{
+    color:#3A3A3A;
+    background-color:bisque;
+    width: fit-content;
+    padding: 10px 50px;
+    border-radius: 50px;
+    margin-bottom: 30px;
+    border-color: lightslategray;
+}
+
+
+
